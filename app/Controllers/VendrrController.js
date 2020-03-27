@@ -4,13 +4,11 @@ import _store from "../store.js";
 
 
 export default class VendrrController {
-  constructor() {
+  constructor() {    
   }
   create(event) {
     event.preventDefault()
     let formData = event.target
-    let newSnack = {
-      title:formData.snackName.value
-    }
+    let newSnack = {title: formData.snackName.value}
   }
 }

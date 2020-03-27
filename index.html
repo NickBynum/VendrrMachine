@@ -27,7 +27,15 @@
         <div class="row-bg-light">
             <div class="col-4 p-3">
                 <form onsubmit="app.vendrrController.create(event)">
-                    <button type="submit" id="buySnack" class="btn btn-success btn-lg">Add Snack</button>
+                    <input list="snackName" name="snackName">
+                    <datalist id="snackName">
+                      <option value="Fruit Snack Gummies">
+                      <option value="Plant Food">
+                      <option value="Admiral-able Ack-Bar">
+                      <option value="Paranormal Snacktivity">
+                      <option value="The Void">
+                    </datalist>
+                    <input type="submit">
                 </form>
             </div>
         </div>

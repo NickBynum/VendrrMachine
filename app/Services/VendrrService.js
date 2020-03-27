@@ -5,6 +5,7 @@ import _store from "../store.js"
 class VendrrService {
   create(newSnackData) {
     let newSnack = new Snacks(newSnackData)
+    console.log("test")
   }
 }
 
